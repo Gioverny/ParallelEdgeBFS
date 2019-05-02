@@ -2,23 +2,21 @@
 
 namespace BfsTest.Net
 {
-    //无向图
+    //Undirected
     public class Graph
     {
-        private int verticals;//顶点个数
+        private int verticals;//VerNum
 
-        private int edges;//边的个数
+        private int edges;//EdgeNum
 
-        private List<int>[] adjacency;//顶点联接列表
+        private List<int>[] adjacency;//Adjacency neighbors
 
         public Graph(int vertical)
         {
             verticals = vertical;
             edges = 0;
 
-            //注意一个问题，我偷懒了，本身是从0开始计数，但是这边从1开始计数。。。
-            //所以索引号即使节点id名字...
-            //在BFS算法里也有+1的代码，注意数组边界问题
+            //record the id of vertex to i-1(notice the size of the array)
             adjacency = new List<int>[vertical + 1];
             for (int v = 0; v < vertical + 1; v++)
             {
@@ -33,7 +31,7 @@ namespace BfsTest.Net
 
         public void AddEdge(int verticalStart, int verticalEnd)
         {
-            //无向图加两条
+            //Undirected
             adjacency[verticalStart].Add(verticalEnd);
             adjacency[verticalEnd].Add(verticalStart);
             ++edges;
