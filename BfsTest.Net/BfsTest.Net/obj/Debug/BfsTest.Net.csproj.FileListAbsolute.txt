@@ -1,0 +1,6 @@
+c:\users\daedalus\source\repos\BfsTest.Net\BfsTest.Net\bin\Debug\BfsTest.Net.exe.config
+c:\users\daedalus\source\repos\BfsTest.Net\BfsTest.Net\bin\Debug\BfsTest.Net.exe
+c:\users\daedalus\source\repos\BfsTest.Net\BfsTest.Net\bin\Debug\BfsTest.Net.pdb
+c:\users\daedalus\source\repos\BfsTest.Net\BfsTest.Net\obj\Debug\BfsTest.Net.csproj.CoreCompileInputs.cache
+c:\users\daedalus\source\repos\BfsTest.Net\BfsTest.Net\obj\Debug\BfsTest.Net.exe
+c:\users\daedalus\source\repos\BfsTest.Net\BfsTest.Net\obj\Debug\BfsTest.Net.pdb
